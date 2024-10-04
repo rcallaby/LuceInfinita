@@ -1,2 +1,13 @@
 # LuceInfinita
-A multipurpose port scanner
+
+**This is a work in progress**
+
+Welcome to **LuceInfinita** (Infinite Light), a cutting-edge port scanning and enumeration tool designed to deliver high-speed and comprehensive network analysis. Written entirely in C++, LuceInfinita leverages the power and efficiency of this language to provide rapid and reliable results, ensuring minimal overhead while scanning. The primary goal of this tool is to enhance the experience of network administrators and cybersecurity professionals by combining the essential features of widely trusted tools like pwncat-cs and nmap, bringing together the best of both worlds.
+
+LuceInfinita is engineered with performance in mind, making it an ideal choice for large-scale network scanning operations or situations where time is a critical factor. Its C++ core offers the speed necessary for scanning even the most complex environments with efficiency and precision. Whether you are mapping an internal corporate network or performing a detailed security assessment, this tool delivers real-time insights into open ports, services, and potential vulnerabilities.
+
+Inspired by the flexibility of pwncat-cs and the robustness of nmap, LuceInfinita includes features from both tools, providing users with a powerful hybrid. From advanced enumeration techniques to quick, simple scans, the tool aims to meet the needs of both penetration testers and system administrators alike. Its lightweight design and minimal dependencies ensure ease of use while maintaining the feature-rich capabilities that professionals require.
+
+The tool is highly customizable, allowing users to tailor scanning strategies and target selection based on their unique requirements. With an intuitive interface and modular structure, LuceInfinita can be easily integrated into existing workflows, offering seamless performance without compromising accuracy. It also supports scripting and automation, empowering users to incorporate it into larger testing suites or scheduled network scans.
+
+In essence, **LuceInfinita** provides a fast, versatile, and reliable solution for anyone looking to enhance their network enumeration capabilities. By bringing together the best aspects of pwncat-cs and nmap, this tool offers users the ability to perform precise and effective scans, all while benefiting from the speed and power of C++. Explore its features and integrate it into your cybersecurity toolkit for enhanced network visibility and control.
