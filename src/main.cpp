@@ -1,6 +1,7 @@
 #include "Logger.h"
 #include "NetworkLayer.h"
 #include "TaskScheduler.h"
+#include "ServiceEnumeration.hpp"
 
 int main(int argc, char* argv[]) {
     Logger logger("scan_logs.txt");

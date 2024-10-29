@@ -1,0 +1,69 @@
+# HTTP Services
+HTTP 1.0 ^HTTP/1.0
+HTTP 1.1 ^HTTP/1.1
+HTTP 2.0 ^HTTP/2
+Apache 2.4 ^Server:\s*Apache/2.4
+Nginx 1.18 ^Server:\s*nginx/1.18
+Nginx 1.19 ^Server:\s*nginx/1.19
+IIS 10.0 ^Server:\s*Microsoft-IIS/10.0
+
+# SSH Services
+OpenSSH 7.9 ^SSH-2.0-OpenSSH_7.9
+OpenSSH 8.1 ^SSH-2.0-OpenSSH_8.1
+OpenSSH 8.6 ^SSH-2.0-OpenSSH_8.6
+Dropbear 2019.78 ^SSH-2.0-dropbear_2019.78
+
+# FTP Services
+FileZilla 0.9 ^220-FileZilla Server 0.9
+FileZilla 1.0 ^220-FileZilla Server 1.0
+vsFTPd 3.0.3 ^220.*vsFTPd 3.0.3
+ProFTPD 1.3.6 ^220.*ProFTPD 1.3.6
+Pure-FTPd 1.0.47 ^220.*Pure-FTPd 1.0.47
+
+# SMTP Services
+Postfix 3.3 ^220.*Postfix 3.3
+Postfix 3.4 ^220.*Postfix 3.4
+Exim 4.92 ^220.*Exim 4.92
+Sendmail 8.15 ^220.*Sendmail 8.15
+Microsoft-ESMTP 15.1 ^220.*Microsoft ESMTP MAIL Service 15.1
+
+# Telnet Services
+Telnet ^Telnet\s
+
+# DNS Services
+BIND 9.11 ^BIND\s9\.11
+BIND 9.16 ^BIND\s9\.16
+Unbound 1.10 ^Unbound\s1\.10
+Unbound 1.13 ^Unbound\s1\.13
+
+# MySQL Services
+MySQL 5.7 ^5\.7\.\d+-mysql
+MySQL 8.0 ^8\.0\.\d+-mysql
+MariaDB 10.3 ^10\.3\.\d+-MariaDB
+MariaDB 10.5 ^10\.5\.\d+-MariaDB
+
+# Redis Services
+Redis 5.0 ^-ERR\sRedis\s5\.0
+Redis 6.0 ^-ERR\sRedis\s6\.0
+
+# RDP (Remote Desktop Protocol) Services
+RDP ^RFB\s003\.008
+
+# NTP (Network Time Protocol) Services
+NTP 4.2.8 ^4\.2\.8p\d+\sat\s
+
+# SMB/CIFS Services
+Samba 4.10 ^smbd\s4\.10
+Samba 4.11 ^smbd\s4\.11
+
+# Database Services
+PostgreSQL 9.6 ^PostgreSQL\s9\.6
+PostgreSQL 12.0 ^PostgreSQL\s12\.0
+
+# LDAP Services
+OpenLDAP 2.4 ^OpenLDAP\s2\.4
+OpenLDAP 2.5 ^OpenLDAP\s2\.5
+
+# IMAP/POP3 Services
+Dovecot 2.3 ^\* OK.*Dovecot\s2\.3
+Courier-IMAP 5.0 ^\* OK.*Courier-IMAP\s5\.0
